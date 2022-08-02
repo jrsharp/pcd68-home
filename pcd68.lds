@@ -15,8 +15,7 @@ MEMORY {
 }
 */
 SECTIONS {
-	_start = 0x1000;
-	. = 0x1000;
+    _vectors = 0x0000;
 	.text : { *(.text) }
 	.data : { *(.data) }
 	.bss : {
